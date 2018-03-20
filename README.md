@@ -25,4 +25,8 @@ https://dialogflow.com/
 
 Add this client access token to 'chatboat/src/environment.ts'.
 
-start your chatbot app using:- localhost:4200
+start your chatbot app using:-
+ng serve 
+
+Opent your browser and go on:- 
+localhost:4200
