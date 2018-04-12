@@ -12,7 +12,6 @@ $ npm install
 
 https://dialogflow.com/
 
-
 -->Add agent name and then choose simple chat or whatever you want.
 
 -->Add simple kind of questions and it's response.
@@ -24,6 +23,14 @@ https://dialogflow.com/
 -->Go to your agentname and choose Client access token.
 
 Add this client access token to 'chatboat/src/environment.ts'.
+
+(*Now make sure that your @angular/cli version should not be >1.5.0
+
+If it is >1.5.0 then uninstall it and install 1.4.10 version.
+
+npm uninstall -g @angular/cli
+
+npm install -g @angular/cli@">=1.4.0 <1.5.0")
 
 start your chatbot app using:-
 ng serve 
