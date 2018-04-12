@@ -24,13 +24,12 @@ https://dialogflow.com/
 
 Add this client access token to 'chatboat/src/environment.ts'.
 
-(*Now make sure that your @angular/cli version should not be >1.5.0
-
+===>(*Now make sure that your @angular/cli version should not be >1.5.0
 If it is >1.5.0 then uninstall it and install 1.4.10 version.
 
 npm uninstall -g @angular/cli
 
-npm install -g @angular/cli@">=1.4.0 <1.5.0")
+npm install -g @angular/cli@">=1.4.0 <1.5.0")<===
 
 start your chatbot app using:-
 ng serve 
